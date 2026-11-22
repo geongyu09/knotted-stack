@@ -1,0 +1,12 @@
+{
+  "name": "knotted-stack",
+  "description": "박건규의 개인 하네스 스택",
+  "owner": { "name": "박건규" },
+  "plugins": [
+    {
+      "name": "knotted-stack",
+      "description": "라우팅 훅, 진입 스킬 knot-mode, 자체 위임 실행기로 구성한 개인 하네스 스택",
+      "source": "./"
+    }
+  ]
+}

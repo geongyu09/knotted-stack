@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sed \"s|{{ROOT}}|${CLAUDE_PLUGIN_ROOT}|g\" \"${CLAUDE_PLUGIN_ROOT}/hooks/routing.md\"",
+            "statusMessage": "knotted-stack 라우팅 불러오는 중"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/check-banned-patterns.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

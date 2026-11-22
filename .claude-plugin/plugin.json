@@ -1,0 +1,8 @@
+{
+  "name": "knotted-stack",
+  "version": "0.1.0",
+  "description": "라우팅 훅, 진입 스킬 knot-mode, 자체 위임 실행기로 구성한 개인 하네스 스택",
+  "author": { "name": "박건규" },
+  "license": "MIT",
+  "repository": "https://github.com/geongyu09/knotted-stack"
+}
