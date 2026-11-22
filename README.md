@@ -10,6 +10,7 @@
 | 개발 | `skills/knot-mode/` | 진입 스킬, 개발 기본 규칙 `ponytail.md`, 플레이북 3개, 원칙 3개입니다. |
 | 위임 | `skills/delegate/` | 위임 스킬, 작업자 규칙 `worker.md`, 프로필 `profiles.json`, 실행기 `scripts/agent.sh`입니다. |
 | 설명 | `skills/how/`, `skills/why/`, `skills/teach/` | 동작 방식, 결정의 근거, 둘을 엮은 설명입니다. |
+| 커밋 | `skills/commit/` | 변경 사항을 확인해 커밋 메시지를 제안하고, 승인을 받은 뒤 커밋과 푸시를 합니다. |
 | 글쓰기 | `skills/writing-draft-outline/`, `skills/writing-draft-actualization/`, `skills/proofread/`, `skills/humanize-korean/` | 개요, 본문 작성, 첨삭, AI 문체 제거입니다. |
 | 글쓰기 에이전트 | `agents/` | 문장 흐름 편집, 문장 비평, humanize 3종입니다. |
 | 글쓰기 규칙 | `rules/writing-rules.md`, `hooks/check-banned-patterns.sh`, `hooks/banned-patterns.txt` | 규칙 문서와, `.md`를 쓰거나 고칠 때 금지 표현을 막는 훅입니다. |

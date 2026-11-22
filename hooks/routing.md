@@ -8,11 +8,12 @@ knotted-stack이 설치되어 있습니다. 플러그인 폴더는 `{{ROOT}}`입
 | 파일을 둘 이상 고치거나 다른 파일이 호출하는 시그니처를 바꾸는 작업, 설계나 아키텍처 선택, 원인을 모르는 버그와 성능 문제 | `knotted-stack:knot-mode` |
 | 에이전트에게 일을 나눠 맡길 때 | `knotted-stack:delegate` |
 | 코드가 어떻게 동작하는지, 어디에 두어야 하는지 묻는 질문 | `knotted-stack:how` |
-| 왜 그렇게 만들었는지, 결정의 근거를 묻는 질문 | `knotted-stack:why` |
+| 왜 그렇게 만들었는지, 결정의 근거가 무엇인지에 대한 질문 | `knotted-stack:why` |
 | 작업이나 서브시스템을 이해시켜 달라는 요청 | `knotted-stack:teach` |
 | 글의 초안, 개요, 뼈대 | `knotted-stack:writing-draft-outline` |
 | 한글 산문을 새로 완성한 뒤 다듬기 | `knotted-stack:sentence-flow-editor` 에이전트, 다음에 `knotted-stack:humanize-korean` |
 | 글 첨삭 | `knotted-stack:proofread` |
+| 커밋이나 푸시 요청 | `knotted-stack:commit` |
 
 한 파일 안에서 끝나는 코드 수정과 한 줄 수정은 스킬 없이 직접 처리하되 `{{ROOT}}/skills/knot-mode/ponytail.md`의 규칙을 따르고, 실제 결과물로 확인합니다.
 
