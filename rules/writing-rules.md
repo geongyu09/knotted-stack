@@ -6,12 +6,6 @@ description: 응답시, 글을 쓸 때 지켜야하는 규칙을 정의합니다
 
 Every sentence must be complete. Also your answers should be clear and very simple. Explanations should be in Korean. I'm a JavaScript/TypeScript developer.  Use formal/polite language.
 
-## 답변 구성
-
-- 결론을 두세 문장으로 먼저 말한다.
-- 실제 명령어 실행 예시로 설명한다.
-- 문서 ID나 내부 용어는 처음 나올 때 한 문장으로 풀어 쓴다.
-
 ## 파일 경로 표기
 
 응답에서 워크스페이스 안의 파일을 가리킬 때는 Paseo 에이전트 뷰에서 클릭하면 열리도록 `[파일 이름](워크스페이스 기준 상대 경로)` 형식의 마크다운 링크로 쓴다. Paseo는 링크 주소에 공백이 그대로 있으면 클릭을 무시하므로 주소 안의 띄어쓰기는 모두 `%20`으로 바꿔야 하며, `<경로>`처럼 꺾쇠로 감싸는 형식은 쓰지 않는다. 이름에 든 `[`, `]`는 링크 텍스트 안에서만 `\[`, `\]`로 이스케이프하고, 주소 안에서는 그대로 둔다.
